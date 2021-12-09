@@ -1,0 +1,481 @@
+html body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container_haeder{
+    max-width: 100%;
+    height: 920px;
+    /* background-color: thistle; */
+    /* background-image: url(image/ultimate-seed-crackers-6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   */
+}
+
+
+
+.header_black{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    position: relative;
+    z-index:2 ;
+}
+
+.header_gray{
+    width: 100%;
+    height: 100px;
+    background-color: #61625f82;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+.block_navigat{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    margin: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #f7f7f7;
+    
+    
+}
+.navigat {
+    height: 30px;
+    width: 99px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+.navigat:hover{
+    border-bottom:3px solid #ff4200;
+    height: 27px;
+}
+
+
+.block_black{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    text-align: right;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #f7f7f7;
+    margin: 0 auto;
+    
+}
+
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+}
+.fon_one{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+
+}
+.with_freshes{
+    width: 45%;
+    margin: 0 auto;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    margin-bottom: 75px;
+    /* position: absolute;
+    top: 33%;
+    left: 42%; */
+    /* transform: translate(0, -12%); */
+    
+}
+h1{
+    font-size: 48px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    color: white;
+
+}
+.block_green{
+    width:170%;
+    height: 360px;
+    background-color:#5b874acf ;
+    text-align: right;
+    overflow: hidden;
+    margin-top: 115px;
+    z-index: 1;
+
+}
+.text_green{
+    color:#f7f7f7 ;
+    width: 255px;
+    margin-left: auto;
+    margin-right: 60px;
+    margin-top: 180px;
+    font-size: 17px;
+    text-align: right;
+}
+
+
+
+.orange_button{
+    width: 260px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 40px 40px 40px 40px;
+    background-color:#ff4200 ;
+    margin-left: auto;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    z-index: 3;
+
+}
+.text_orange{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    color: white;
+    font-size:29px;
+    margin: 0;
+}
+
+     /* ////////////////////////BLOK 2/////////////////////////////////////////////////////// */
+
+.section_two{
+    width: 100%;
+    height: 1280px;
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+    
+}                   
+
+.block_fon_two{
+    width: 1920px;
+    height: 100vh;
+    position: relative;
+   
+}
+.df{
+    position: absolute;
+    width: 100%;
+    height: 1280px;
+    z-index: 3;
+    background: linear-gradient(.01deg,rgb(255, 255, 255), rgb(255 255 255 / 30%),rgb(255, 255, 255) );
+    
+
+}
+#fon_two{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    opacity: .5;
+    
+}
+#font_two{
+    width: 340px;
+    position: absolute;
+    top: 50px;
+    left: 436px;
+    
+}
+.block_grid{
+    display: grid;
+    position: relative;
+    grid-template-rows:125px 360px;
+    z-index: 4;
+}        
+
+h3{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    margin: 50px auto;
+    color: #666666;
+    font-size: 40px;
+    letter-spacing: 5px;
+    
+}
+.purpul_block{
+    background-color: #d0aaaa82;
+    height: 360px;
+    width: 70%;
+    margin-left: auto;
+    border-top: .5px solid #978c8a;
+    border-left: .5px solid #978c8a;
+    border-bottom: .5px solid #978c8a;
+
+}
+.purpul_text{
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 500px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #0c0b0b8a;
+}
+
+.constructor{
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 1200px;
+    height: 500px;
+    /* background-color: rgba(0, 0, 0, 0.192); */
+}
+
+.line_one,.line_two,.line_thre,.line_four{
+    width: 90%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column-start: 2;
+
+}
+.one_circle{
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    border-radius:50%;
+    border: 1px solid #00a651  ;
+    position: absolute;
+    left: 50px;
+
+}
+.line_one{
+    background-color: #00a651;
+    grid-row-start: 1;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.line_two{
+    background-color: #49743f;
+    grid-row-start: 2;
+}
+.line_thre{
+    background-color: #aba000;
+    grid-row-start: 3;
+}
+.line_four{
+    background-color: #949290;
+    grid-row-start: 4;
+}
+.ikon_one,.ikon_two,.ikon_thre,.ikon_four,.ikon_five{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+    margin-left: auto;
+    margin-right: auto;
+    grid-column-start: 1;
+}
+.ikon_one{
+    grid-row-start: 1;
+    border: 1px solid #00a651;
+}
+.ikon_two{
+    grid-row-start: 2;
+    border: 1px solid #49743f;
+}
+.ikon_thre{
+    grid-row-start: 3;
+    border: 1px solid #aba000;
+}
+.ikon_four{
+    grid-row-start: 4;
+    border: 1px solid #939393;
+}
+.ikon_five{
+    grid-row-start: 5;
+}
+
+
+#CRACKER{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 7px;
+}
+.constructor{
+    margin: 0 auto;
+}
+
+
+/* /////////////////////////////////////////////////////BLOK 3////////////////////////////////////////// */
+.section_three{
+    width: 100%;
+    height: 788px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    
+   
+}
+.img_fon_three{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+
+}
+
+.block_three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 50%;
+    height: 500px;
+    margin: 20px auto;
+    z-index: 2;
+    position: relative;
+}
+.left,.center,.right{
+    display: grid;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+.left{
+    grid-template-rows: 60px 80px;
+}
+.block_phone,.icon_block, .icon_us{
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.phone, .address, .share{
+    font-size: 16px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    color: white;
+    width: 80px;
+    text-align: center;
+    margin-right: 35px;
+    letter-spacing: 2px;
+
+}
+.icon_phone{
+    width: 30px;
+    height: auto;
+    margin: 0 auto;
+}
+.tell{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: white;
+    margin: 0 auto;
+    letter-spacing:1px;
+
+}
+.number{
+text-align: center;
+}
+
+
+
+.center{
+    grid-template-rows: 60px 135px;
+    
+}
+.location_icon{
+    width: 20px;
+    height: auto;
+    margin: 0 auto;
+}
+.location_text{
+    width: 150px;
+    margin: 0 auto;
+    line-height: 1.7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    letter-spacing:1px;
+
+}
+
+
+
+
+.right{
+    grid-template-rows: 60px 80px 80px 80px;
+    align-items: center;
+    
+    
+}
+.share_icon{
+    width: 20px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.block_footer{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+
+}
+.text_footer{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    letter-spacing:1px;
+
+}
+.radius_inst{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.icon_inst{
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    
+}
+.icon_facebook{
+    position: absolute;
+    width: 20px;
+    top: 16px;
+    left: 19px;
+
+}
+.icon_google{
+    position: absolute;
+    width: 30px;
+    top: 12px;
+    left: 16px;
+}
